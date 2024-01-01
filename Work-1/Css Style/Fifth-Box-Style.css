@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1%;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  border: 1px solid black;
+  float: left;
+  width: 25%;
+  padding: 6%;
+  display: inline;
+}
+.main {
+  width: 50%;
+  border-left: none;
+  border-right: none;
+}
+.mainbox {
+  border: 1px solid black;
+  float: left;
+  width: 25%;
+  padding: 12%;
+  display: inline;
+  border-top: none;
+}
+.content {
+  width: 50%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.footcontent {
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+  padding: 6%;
+  border-top: none;
+}

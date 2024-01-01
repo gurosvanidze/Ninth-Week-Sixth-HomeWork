@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1%;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  border: 1px solid black;
+  float: left;
+  width: 25%;
+  padding: 6%;
+  display: inline;
+}
+.line {
+  width: 75%;
+  border-left: none;
+}
+.mainbox {
+  border: 1px solid black;
+  float: left;
+  width: 25%;
+  padding: 12%;
+  display: inline;
+  border-top: none;
+}
+.content {
+  width: 50%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.bundle {
+  border-bottom: none;
+}
+.end {
+  border: 1px solid black;
+  width: 100%;
+  padding: 6%;
+  float: left;
+  border-top: none;
+}

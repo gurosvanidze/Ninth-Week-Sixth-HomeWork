@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1%;
+}
+ul {
+  list-style-type: none;
+}
+.bundle {
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+  padding: 8%;
+}
+.content {
+  border: 1px solid black;
+  float: top;
+  width: 30%;
+  padding: 8%;
+}
+.box {
+  border: 1px solid black;
+  float: left;
+  width: 30%;
+  padding: 8%;
+  display: inline;
+  border-bottom: none;
+  border-top: none;
+}
+.column {
+  border: 1px solid black;
+  float: right;
+  width: 30%;
+  padding: 8%;
+  border-bottom: none;
+  border-top: none;
+}

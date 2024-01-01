@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1%;
+}
+ul {
+  list-style-type: none;
+}
+.bundle {
+  border: 1px solid black;
+  float: left;
+  width: 100%;
+  padding: 6%;
+}
+.box {
+  border: 1px solid black;
+  float: left;
+  width: 25%;
+  padding: 12%;
+  display: inline;
+  border-top: none;
+}
+.navigation {
+  width: 50%;
+  padding: 2%;
+  border-left: none;
+  border-right: none;
+}
+.content,
+.main {
+  border-bottom: none;
+}
