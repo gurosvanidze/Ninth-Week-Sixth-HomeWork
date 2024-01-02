@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 1%;
+}
+@keyframes firstanimation {
+    
+    0% {
+        left: 0%;
+    }
+    50% {
+        left: 50%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+#box {
+    border: 1px solid black;
+    width: 100%;
+    padding: 1%;
+}
+.animationbox {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    position:sticky;
+    animation: firstanimation;
+    animation-duration: 8s;
+    animation-timing-function:cubic-bezier(0.43, 0.72, 0.52, 0.93);
+    animation-iteration-count: infinite;
+}

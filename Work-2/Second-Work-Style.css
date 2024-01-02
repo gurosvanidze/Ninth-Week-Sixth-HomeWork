@@ -13,7 +13,7 @@ header h1 {
     margin-left: -4%;
 }
 .line {
-    display: inline-block;
+    float: left;
     padding: 1%;
 }
 .content {
@@ -36,6 +36,7 @@ footer {
     width: 45%;
     color: white;
     padding: 2%;
+    clear: both;
 }
 footer h3 {
     margin-left: -2%;
